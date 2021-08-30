@@ -10,7 +10,7 @@
 
   "servers": [
     {
-      "url": "http://localhost:3550",
+      "url": "https://banco-de-dados.herokuapp.com/",
       "description": "ambiente de desenvolvimento"
     }
   ],
