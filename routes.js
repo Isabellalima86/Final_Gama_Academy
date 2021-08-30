@@ -1,8 +1,8 @@
 const express = require('express');
-const CandidateController = require('./controllers/CandidateController');
+const CandidateController = require('./CandidateController');
 const routes = new express.Router();
-const candidate = require('./models/Candidate');
-const cpf = require('./controllers/cpf');
+const candidate = require('./Candidate');
+const cpf = require('./cpf');
 
 routes.post('/register', CandidateController.register);
 
